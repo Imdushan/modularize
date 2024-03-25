@@ -14,6 +14,11 @@
         "psr-4": {
             "Modularize\\Core\\": "src/"
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@php -r \"require_once 'app/ModelGenerator.php'; ModelGenerator::generateModels();\""
+        ]
     }
 }
 
