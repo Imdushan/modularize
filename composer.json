@@ -1,0 +1,19 @@
+{
+    "name": "modularize/core",
+    "description": "Modular Core Functionality",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inesh Madhushan",
+            "email": "ineshmadhushan@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modularize\\Core\\": "src/"
+        }
+    }
+}
+
