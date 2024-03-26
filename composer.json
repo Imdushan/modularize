@@ -17,7 +17,7 @@
     },
     "scripts": {
         "post-install-cmd": [
-             "@php -r \"require_once 'app/ModelGenerator.php'; \App\ModelGenerator::generateModels();\""
+             "@php -r \"require_once 'app/ModelGenerator.php'; \\App\\ModelGenerator::generateModels();\""
         ]
     }
 }
